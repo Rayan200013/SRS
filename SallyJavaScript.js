@@ -38,3 +38,10 @@ console.log(library.findBook("bookname2"));
 const searchForm = document.getElementById("searchForm");
 const resultDiv = document.getElementById("result");
 
+searchForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+
+    const bookTitle = document.getElementById("bookTitle").value;
+    const book = library.findBook(bookTitle);
+
+});
