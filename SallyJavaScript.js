@@ -23,13 +23,22 @@ class Library {
 }
 
 
+// Create instances of Book and Library
+const book1 = new Book("The Lord of the Rings", "J.R.R. Tolkien", 280);
+const book2 = new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 600);
+const book3 = new Book("The Hunger Games", "Suzanne Collins", 555);
+const book4 = new Book("To Kill a Mockingbird", "Harper Lee", 400);
+const book5 = new Book("The Great Gatsby", "F. Scott Fitzgeral", 560);
+const book6 = new Book("dd", "F. Scott Fitzgeral", 560);
+
+
 const library = new Library();
-const book1 = new Book("bookname1", "a", "2");
-const book2 = new Book("bookname2", "b", "5");
-const book3 = new Book("bookname3", "c", "55");
-library.addBook(book1);
+library.addBook(book1);// Add books to the library
 library.addBook(book2);
 library.addBook(book3);
+library.addBook(book4);
+library.addBook(book5);
+library.addBook(book6);
 
 console.log(library.books);
 console.log(library.findBook("The Great Gatsby"));
@@ -45,3 +54,44 @@ searchForm.addEventListener("submit", function (event) {
     const book = library.findBook(bookTitle);
 
 });
+
+
+
+
+
+
+
+list
+const books_list = [
+    {
+        title: "The Lord of the Rings",
+        author: "J.R.R. Tolkien",
+        page: 280,
+    },
+    {
+        title: "Harry Potter and the Sorcerer's Stone",
+        author: "J.K. Rowling",
+        page: 600,
+    },
+    {
+        title: "The Hunger Games",
+        author: "Suzanne Collins",
+        page: 555,
+    },
+    {
+        title: "To Kill a Mockingbird",
+        author: "Harper Lee",
+        page: 400,
+    },
+    {
+        title: "The Great Gatsby",
+        author: "F. Scott Fitzgerald",
+        page: 560,
+    },
+    {
+        title: "The Catcher in the Rye",
+        author: "J.D. Salinger",
+        page: 510,
+    },
+];
+

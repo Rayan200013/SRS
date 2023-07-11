@@ -51,7 +51,7 @@ document
     if (foundBook === "Book not found.") {
       resultElement.textContent = "Book not found.";
     } else {
-      resultElement.textContent = `Title: ${foundBook.title}\nAuthor: ${foundBook.author}\nPages: ${foundBook.pages}`;
+      resultElement.textContent = `Title: ${foundBook.title} Author: ${foundBook.author} Pages: ${foundBook.pages}`;
     }
   });
 
