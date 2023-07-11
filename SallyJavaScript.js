@@ -29,7 +29,7 @@ const book2 = new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 
 const book3 = new Book("The Hunger Games", "Suzanne Collins", 555);
 const book4 = new Book("To Kill a Mockingbird", "Harper Lee", 400);
 const book5 = new Book("The Great Gatsby", "F. Scott Fitzgeral", 560);
-const book6 = new Book("dd", "F. Scott Fitzgeral", 560);
+const book6 = new Book("The Catcher in the Rye", "J.D Salinger", 510);
 
 
 const library = new Library();
