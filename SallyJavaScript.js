@@ -61,7 +61,6 @@ searchForm.addEventListener("submit", function (event) {
 
 
 
-list
 const books_list = [
     {
         title: "The Lord of the Rings",
