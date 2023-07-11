@@ -94,3 +94,14 @@ const books_list = [
     },
 ];
 
+const listBooks = () => {
+    const ul = document.createElement("ul");
+    for (const book of books_list) {
+        const li = document.createElement("li");
+        li.textContent = `${book.title} by ${book.author} with ${book.page} `;
+        ul.appendChild(li);
+    }
+    document.body.appendChild(ul);
+};
+
+listBooks();
